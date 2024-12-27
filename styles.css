@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background: url('autumn-studio-221wufG10eg-unsplash.jpg') no-repeat center center/cover;
+    padding: 10px 20px;
+}
+
+#about {
+    color: white;
+    background-image:url(aziz-acharki-boIJluEJEPM-unsplash.jpg);
+}
+
+#services{
+    color: white;
+    background-image:url(aziz-acharki-boIJluEJEPM-unsplash.jpg) ;
+}
+
+#contact{
+    color: white;
+    background-image:url(aziz-acharki-boIJluEJEPM-unsplash.jpg) ;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+/* Section Styles */
+section {
+    display: none;
+    padding: 40px 20px;
+}
+
+section.active {
+    display: block;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(aziz-acharki-boIJluEJEPM-unsplash.jpg) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #304030;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0;
+}
